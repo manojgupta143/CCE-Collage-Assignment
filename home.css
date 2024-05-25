@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Radio Canada Big", sans-serif;
+    color: #FDFEFF;
+}
+
+.radio-canada-bigv {
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    position: relative;
+    background-image: url("pic/background\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FDFEFF;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: rgb(89 30 30);
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1.2px solid white;
+}
+
+.container-fluid .navigation-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+p-2 {
+    margin-top: 5px;
+    margin-bottom: 5;
+}
+
+.p-2 a {
+    color: #FDFEFF;
+    text-decoration: none;
+    margin: 0;
+    padding-right: 0.8rem !important;
+    font-size: 1rem;
+}
+
+.p-2 a:hover {
+    color: thistle;
+    background-color: rgb(96, 33, 33);
+    border: 1px solid rgb(111, 26, 26);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.fa-2xl {
+    font-size: 1.1em;
+    line-height: .03125em;
+    vertical-align: -.1875em;
+}
+
+#github {
+    border-right: 1.2px solid white;
+}
+
+.josh {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+.dropdown-menu {
+    background-color: rgb(89 30 30);
+}
+
+.helpline {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    background-color: rgba(252, 8, 8, 0.919);
+    margin: 5px;
+    padding: 0.2rem !important;
+    border-radius: 18px;
+    color: wheat;
+    font-weight: bold;
+    width: 37vh;
+}
+
+.fa-phone {
+    color: #FDFEFF;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 9px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+#circle {
+    border: 2px solid #FDFEFF;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.helpline h6 {
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.helpline span {
+    font-style: italic;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: rgb(158, 60, 60);
+}
+
+.logo {
+    width: 40%;
+    margin-right: 10px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 24vh;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-left: 4px;
+    border-right: 2px dotted #FDFEFF;
+    padding-right: 15px;
+}
+
+.grade {
+    width: 50%;
+    float: left;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.grade h2 {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 2px;
+    margin-bottom: 0;
+}
+
+.grade h3 {
+    padding-top: -10px;
+    padding-bottom: 1px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 2px;
+    margin-bottom: -10;
+}
+
+.naac {
+    margin: 0;
+    padding: 0;
+}
+
+.grade h1 {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.grade span {
+    margin-top: 3px;
+    margin-left: 0;
+    font-weight: 900;
+}
+
+.carousel-item img {
+    height: auto;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* Center elements vertically */
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* Center elements vertically */
+}
+
+.apply-button {
+    position: absolute;
+    margin-top: 200px;
+    text-decoration: none;
+    right: 0;
+    background-color: #18212a;
+    color: #FDFEFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: rotate(-90deg);
+    /* Rotate the button */
+    transform-origin: bottom right;
+    /* Set the origin of the rotation */
+}
+
+.placement-bar {
+    width: 100;
+    height: 50px;
+}
+
+.placement-bar ol {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 16%;
+    background-color: beige;
+    border: 1px soliud gray;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+.row {
+    margin-top: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-image: url("pic/19999_CGC_New.webp");
+    background-size: cover;
+    background-position: center;
+    color: #FDFEFF;
+    overflow: hidden;
+}
+
+.row .col-3:nth-of-type(1) {
+    background-color: blue;
+}
+
+.row .col-3:nth-of-type(2) {
+    padding-left: 0;
+}
+
+.col-3 {
+    height: 70vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.col-6 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+}
+
+.col-6 h1 {
+    color: greenyellow;
+    padding-top: 15px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.col-6 p {
+    padding-left: 6px;
+    color: #FDFEFF;
+}
+
+.row .col-3 h1 {
+    color: rgb(250, 250, 3);
+    padding-left: 10px;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.row .col-3 span {
+    color: yellow;
+    padding-left: 5px;
+    margin-top: 10;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row .col-3 p {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 16px;
+}
+
+.row .col-3 img {
+    height: 100%;
+    overflow: hidden;
+}
+
+.d-flex {
+    background-color: rgb(60, 60, 255);
+}
+
+.flex-fill img {
+    height: 50vh;
+    width: 40vh;
+    margin-left: 0px;
+    padding-left: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.flex-fill h1:nth-of-type(1) {
+    border-left: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    padding-left: 8px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.flex-fill h1:nth-of-type(2) {
+    border-left: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    padding-left: 8px;
+    color: yellow;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.flex-fill h5 {
+    color: yellow;
+    padding-top: 0;
+}
